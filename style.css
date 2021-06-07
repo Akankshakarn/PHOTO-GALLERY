@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+padding: 0%;
+}
+.im img{
+    height: 200;
+    width: 400;
+    margin-left:2vh;
+    margin-top: 2vh;
+    margin-right: 2vh;
+    margin-bottom: 2vh;
+
+}
+.im img:hover{
+    transition-duration: 1s;
+    transform: scale(1.2);
+    /* width: 800vh;
+    height: 400vh; */
+    box-shadow: 20px 20px 10px grey;
+}
+
+
+.im{
+   /* background-color: white;*/
+   /* opacity: 70%;*/
+    margin-left: 130vh;
+    /* margin-top: 2vh; */
+    margin-right: 5vh;
+
+
+}
+.intro{
+  color: azure; 
+  font-size: 7vh; 
+  text-shadow: 2px 2px 5px gray;
+  margin-top: 2vh;
+  margin-left: 30vh;
+}
+/* Fixed sidenav, full height */
+.sidenav {
+    font-size: 6vh;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: #111; */
+    background-color: white;
+    opacity: 50%;
+    overflow-x: hidden;
+    padding-top: 170px;
+    color: #2C3539;
+  }
+
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #25383C;
+  }
+
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: green;
+    color: white;
+  }
+
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    /*display: none;*/
+    background-color: #262626;
+    padding-left: 8px;
+  }
+
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  .hide {
+    display: none;
+  }
+
+  .myDIV:hover + .hide {
+    display: block;
+    color: red;
+  }
